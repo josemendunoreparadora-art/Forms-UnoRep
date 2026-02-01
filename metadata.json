@@ -1,0 +1,7 @@
+{
+  "name": "UNOREP FORMS .IA",
+  "description": "Sistema de extracción de datos por IA para documentos oficiales (INE, Plan de Liquidación, Estudio Socioeconómico) y auto-llenado de formularios institucionales.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
