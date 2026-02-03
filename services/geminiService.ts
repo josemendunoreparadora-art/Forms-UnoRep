@@ -2,8 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { ExtractedData, AppFile } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 export async function extractDocumentData(
   files: AppFile[]
 ): Promise<Partial<ExtractedData>> {
